@@ -12,11 +12,23 @@ public class Test4_2 {
 		System.out.print("점수를 입력하세요? ");
 		su = sc.nextInt();
 		
-		if(su >= 90) gr = 'A';
-		else if(su >= 80) gr = 'B';
-		else if(su >= 70) gr = 'C';
-		else if(su >= 60) gr = 'D';
-		else gr = 'F';
+		switch(su / 10) {  // (변수,수식,값)
+			case 10:
+			case 9:
+				gr = 'A';
+				break;
+			case 8:
+				gr = 'B';
+				break;
+			case 7:
+				gr = 'C';
+				break;
+			case 6:
+				gr = 'D';
+				break;
+			default:
+				gr = 'F';
+		}
 		
 		System.out.println("점수 "+su+" 는 "+gr+" 학점입니다.");
 		
