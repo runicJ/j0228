@@ -24,7 +24,7 @@ public class Test3_2 {
 			}
 		}
 		// 음수일때 처리
-		if(su <= -10 && su > -99) {
+		if(su <= -10 && su > -100) {
 			while(su <= 1) {
 				System.out.print(su + "\t");
 				su++;
