@@ -14,7 +14,7 @@ import java.util.Scanner;
 	실수령액(netpay)을 구하시오
 	단, 실수령액 = 본봉 + 수당 - 공제액
 */ // Ctrl + F6 전
-public class Test5 {
+public class Test5_1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
